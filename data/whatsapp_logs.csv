@@ -1,6 +1,6 @@
 timestamp,user_id,user_question,predicted_intent,confidence,response
-2026-06-04T06:58:57.378344,+1234567890,When do admissions open?,Admission_Dates,1.0,"📅 *Admission Dates*
+2026-06-04T07:39:45.420334,+1234567890,When do admissions open?,Admission_Dates,1.0,"📅 *Admission Dates*
 
-Hey there! Admissions typically open in December for the Spring semester. If you're looking for specific dates, feel free to ask!
+Hey there! Admissions typically open on July 1 and close on August 31 for the regular semester. If you're asking about the Spring semester, those admissions open in December. Let me know if you need more info!
 
 _Type 'help' for more options_"

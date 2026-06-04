@@ -60,7 +60,7 @@ def run_whatsapp_server():
     print(f"""
     ╔════════════════════════════════════════════╗
     ║   WhatsApp FAQ Bot Server                  ║
-    ║   Running on http://localhost:{port}       ║
+    ║   Running on http://localhost:{port}        ║
     ║   Webhook: http://localhost:{port}/webhook ║
     ╚════════════════════════════════════════════╝
     """)
