@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
 import os
@@ -166,11 +166,11 @@ def respond_whatsapp(message):
         message (str): Message to send
         
     Returns:
-        str: TwiML response
+        Response: Flask response with TwiML XML content
     """
     resp = MessagingResponse()
     resp.message(message)
-    return str(resp)
+    return Response(str(resp), mimetype='application/xml')
 
 def format_whatsapp_response(result):
     """

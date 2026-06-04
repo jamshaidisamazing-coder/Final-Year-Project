@@ -60,12 +60,12 @@ def run_whatsapp_server():
     print(f"""
     ╔════════════════════════════════════════════╗
     ║   WhatsApp FAQ Bot Server                  ║
-    ║   Running on http://localhost:{port}        ║
+    ║   Running on http://localhost:{port}       ║
     ║   Webhook: http://localhost:{port}/webhook ║
     ╚════════════════════════════════════════════╝
     """)
     
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(host='0.0.0.0', port=port, debug=False, use_reloader=False)
 
 def initialize_vectorstore():
     """Initialize/rebuild vector store"""

@@ -1,0 +1,6 @@
+timestamp,user_id,user_question,predicted_intent,confidence,response
+2026-06-04T06:58:57.378344,+1234567890,When do admissions open?,Admission_Dates,1.0,"📅 *Admission Dates*
+
+Hey there! Admissions typically open in December for the Spring semester. If you're looking for specific dates, feel free to ask!
+
+_Type 'help' for more options_"
